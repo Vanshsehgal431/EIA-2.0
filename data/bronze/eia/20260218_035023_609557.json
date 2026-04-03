@@ -1,0 +1,136 @@
+{
+  "response": {
+    "total": "10",
+    "dateFormat": "YYYY-MM-DD",
+    "frequency": "daily",
+    "data": [
+      {
+        "period": "2026-02-16",
+        "subba": "SCE",
+        "subba-name": "Southern California Edison",
+        "parent": "CISO",
+        "parent-name": "California Independent System Operator",
+        "timezone": "Arizona",
+        "value": "273212",
+        "value-units": "megawatthours"
+      },
+      {
+        "period": "2026-02-16",
+        "subba": "SCE",
+        "subba-name": "Southern California Edison",
+        "parent": "CISO",
+        "parent-name": "California Independent System Operator",
+        "timezone": "Central",
+        "value": "272013",
+        "value-units": "megawatthours"
+      },
+      {
+        "period": "2026-02-16",
+        "subba": "SCE",
+        "subba-name": "Southern California Edison",
+        "parent": "CISO",
+        "parent-name": "California Independent System Operator",
+        "timezone": "Eastern",
+        "value": "270778",
+        "value-units": "megawatthours"
+      },
+      {
+        "period": "2026-02-16",
+        "subba": "SCE",
+        "subba-name": "Southern California Edison",
+        "parent": "CISO",
+        "parent-name": "California Independent System Operator",
+        "timezone": "Mountain",
+        "value": "273212",
+        "value-units": "megawatthours"
+      },
+      {
+        "period": "2026-02-16",
+        "subba": "SCE",
+        "subba-name": "Southern California Edison",
+        "parent": "CISO",
+        "parent-name": "California Independent System Operator",
+        "timezone": "Pacific",
+        "value": "274413",
+        "value-units": "megawatthours"
+      },
+      {
+        "period": "2026-02-15",
+        "subba": "SCE",
+        "subba-name": "Southern California Edison",
+        "parent": "CISO",
+        "parent-name": "California Independent System Operator",
+        "timezone": "Arizona",
+        "value": "240228",
+        "value-units": "megawatthours"
+      },
+      {
+        "period": "2026-02-15",
+        "subba": "SCE",
+        "subba-name": "Southern California Edison",
+        "parent": "CISO",
+        "parent-name": "California Independent System Operator",
+        "timezone": "Central",
+        "value": "240016",
+        "value-units": "megawatthours"
+      },
+      {
+        "period": "2026-02-15",
+        "subba": "SCE",
+        "subba-name": "Southern California Edison",
+        "parent": "CISO",
+        "parent-name": "California Independent System Operator",
+        "timezone": "Eastern",
+        "value": "239724",
+        "value-units": "megawatthours"
+      },
+      {
+        "period": "2026-02-15",
+        "subba": "SCE",
+        "subba-name": "Southern California Edison",
+        "parent": "CISO",
+        "parent-name": "California Independent System Operator",
+        "timezone": "Mountain",
+        "value": "240228",
+        "value-units": "megawatthours"
+      },
+      {
+        "period": "2026-02-15",
+        "subba": "SCE",
+        "subba-name": "Southern California Edison",
+        "parent": "CISO",
+        "parent-name": "California Independent System Operator",
+        "timezone": "Pacific",
+        "value": "240347",
+        "value-units": "megawatthours"
+      }
+    ],
+    "description": "Daily demand by balancing authority subregion.  \n    Source: Form EIA-930\n    Product: Hourly Electric Grid Monitor"
+  },
+  "request": {
+    "command": "/v2/electricity/rto/daily-region-sub-ba-data/data/",
+    "params": {
+      "api_key": "nbAl5TKSjt1XQPKz0cNdkOoA7joFhEh94Axb8Kz3",
+      "frequency": "daily",
+      "data": [
+        "value"
+      ],
+      "sort": [
+        {
+          "column": "period",
+          "direction": "desc"
+        }
+      ],
+      "offset": "0",
+      "length": "5000",
+      "facets": {
+        "subba": [
+          "SCE"
+        ]
+      },
+      "start": "2026-02-15"
+    }
+  },
+  "apiVersion": "2.1.10",
+  "ExcelAddInVersion": "2.1.0"
+}

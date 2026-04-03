@@ -1,0 +1,3 @@
+docker exec -it eia_postgres psql -U eia_user -d eia_db
+
+

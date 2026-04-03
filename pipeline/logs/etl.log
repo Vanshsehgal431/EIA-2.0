@@ -1,0 +1,563 @@
+2026-02-11 11:41:48,366 | INFO | __main__ |This is an Info log
+2026-02-11 11:41:48,367 | WARNING | __main__ |This is a WARNING log
+2026-02-11 11:41:48,367 | ERROR | __main__ |This is an error log
+2026-02-11 12:20:18,036 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-11 12:20:21,101 | INFO | pipeline.extract.eia_extractor |Requesting offset 1000
+2026-02-11 12:20:23,899 | INFO | pipeline.extract.eia_extractor |Requesting offset 2000
+2026-02-11 12:20:26,462 | INFO | pipeline.extract.eia_extractor |Requesting offset 3000
+2026-02-11 12:20:29,156 | INFO | pipeline.extract.eia_extractor |Requesting offset 4000
+2026-02-11 12:20:31,866 | INFO | pipeline.extract.eia_extractor |Requesting offset 5000
+2026-02-11 12:20:34,838 | INFO | pipeline.extract.eia_extractor |Requesting offset 6000
+2026-02-11 12:20:37,245 | INFO | pipeline.extract.eia_extractor |Requesting offset 7000
+2026-02-11 12:20:39,565 | INFO | pipeline.extract.eia_extractor |Requesting offset 8000
+2026-02-11 12:20:41,855 | INFO | pipeline.extract.eia_extractor |Requesting offset 9000
+2026-02-11 12:20:44,317 | INFO | pipeline.extract.eia_extractor |Requesting offset 10000
+2026-02-11 12:20:46,753 | INFO | pipeline.extract.eia_extractor |Requesting offset 11000
+2026-02-11 12:20:49,141 | INFO | pipeline.extract.eia_extractor |Requesting offset 12000
+2026-02-11 12:20:51,340 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-11 13:29:42,678 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = 92.5666
+2026-02-11 13:30:39,950 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = 92.5666
+2026-02-11 13:32:06,865 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = 92.5666
+2026-02-16 09:50:05,012 | INFO | __main__ |===== PIPELINE START =====
+2026-02-16 09:50:05,013 | INFO | __main__ |Processing EIA data
+2026-02-16 09:50:05,014 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-16 09:50:08,775 | INFO | pipeline.extract.eia_extractor |Requesting offset 5000
+2026-02-16 09:50:12,131 | INFO | pipeline.extract.eia_extractor |Requesting offset 10000
+2026-02-16 09:50:14,521 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-16 09:50:14,725 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 09:50:14,747 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 09:50:14,800 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 09:50:14,808 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 09:50:14,808 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 09:50:14,810 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 09:50:14,811 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 09:50:14,820 | ERROR | pipeline.validation.eia_validation |Duplicate records detected
+2026-02-16 09:54:49,965 | INFO | __main__ |===== PIPELINE START =====
+2026-02-16 09:54:49,965 | INFO | __main__ |Processing EIA data
+2026-02-16 09:54:49,966 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-16 09:54:53,025 | INFO | pipeline.extract.eia_extractor |Requesting offset 5000
+2026-02-16 09:54:56,633 | INFO | pipeline.extract.eia_extractor |Requesting offset 10000
+2026-02-16 09:54:59,220 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-16 09:54:59,398 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 09:54:59,405 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 09:54:59,424 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 09:54:59,428 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 09:54:59,430 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 09:54:59,431 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 09:54:59,432 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 09:54:59,437 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 09:54:59,437 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 09:54:59,438 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 09:57:21,286 | INFO | __main__ |===== PIPELINE START =====
+2026-02-16 09:57:21,287 | INFO | __main__ |Processing EIA data
+2026-02-16 09:57:21,287 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-16 09:57:24,387 | INFO | pipeline.extract.eia_extractor |Requesting offset 5000
+2026-02-16 09:57:27,229 | INFO | pipeline.extract.eia_extractor |Requesting offset 10000
+2026-02-16 09:57:29,431 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-16 09:57:29,607 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 09:57:29,630 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 09:57:29,679 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 09:57:29,689 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 09:57:29,689 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 09:57:29,690 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 09:57:29,691 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 09:57:29,700 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 09:57:29,700 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 09:57:29,701 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 09:59:13,259 | INFO | __main__ |===== PIPELINE START =====
+2026-02-16 09:59:13,259 | INFO | __main__ |Processing EIA data
+2026-02-16 09:59:13,259 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-16 09:59:15,896 | INFO | pipeline.extract.eia_extractor |Requesting offset 5000
+2026-02-16 09:59:18,484 | INFO | pipeline.extract.eia_extractor |Requesting offset 10000
+2026-02-16 09:59:20,776 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-16 09:59:21,010 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 09:59:21,039 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 09:59:21,104 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 09:59:21,117 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 09:59:21,117 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 09:59:21,119 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 09:59:21,121 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 09:59:21,138 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 09:59:21,138 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 09:59:21,140 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 10:01:27,171 | INFO | __main__ |===== PIPELINE START =====
+2026-02-16 10:01:27,172 | INFO | __main__ |Processing EIA data
+2026-02-16 10:01:27,172 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-16 10:01:29,642 | INFO | pipeline.extract.eia_extractor |Requesting offset 5000
+2026-02-16 10:01:32,403 | INFO | pipeline.extract.eia_extractor |Requesting offset 10000
+2026-02-16 10:01:34,495 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-16 10:01:34,686 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 10:01:34,697 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 10:01:34,720 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 10:01:34,724 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 10:01:34,724 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 10:01:34,725 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 10:01:34,726 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 10:01:34,735 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 10:01:34,736 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 10:01:34,737 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 20:33:25,691 | INFO | __main__ |===== PIPELINE START =====
+2026-02-16 20:33:25,693 | INFO | __main__ |Processing EIA data
+2026-02-16 20:33:25,693 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-16 20:33:59,197 | INFO | pipeline.extract.eia_extractor |Requesting offset 5000
+2026-02-16 20:34:11,738 | INFO | pipeline.extract.eia_extractor |Requesting offset 10000
+2026-02-16 20:34:22,706 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-16 20:34:22,947 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 20:34:22,971 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 20:34:23,035 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 20:34:23,046 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 20:34:23,047 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 20:34:23,049 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 20:34:23,050 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 20:34:23,063 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 20:34:23,064 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 20:34:23,066 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 20:43:41,302 | INFO | __main__ |===== PIPELINE START =====
+2026-02-16 20:43:41,303 | INFO | __main__ |Processing EIA data
+2026-02-16 20:43:41,303 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-16 20:43:47,313 | INFO | pipeline.extract.eia_extractor |Requesting offset 5000
+2026-02-16 20:43:50,457 | INFO | pipeline.extract.eia_extractor |Requesting offset 10000
+2026-02-16 20:43:52,932 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-16 20:43:53,172 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 20:43:53,203 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 20:43:53,266 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 20:43:53,277 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 20:43:53,278 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 20:43:53,281 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 20:43:53,282 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 20:43:53,298 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 20:43:53,299 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 20:43:53,299 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 20:43:56,106 | INFO | pipeline.load.eia_loader |Inserted 5000 rows
+2026-02-16 20:43:56,288 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 20:43:56,298 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 20:43:56,314 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 20:43:56,322 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 20:43:56,322 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 20:43:56,324 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 20:43:56,325 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 20:43:56,332 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 20:43:56,332 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 20:43:56,333 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 20:43:58,992 | INFO | pipeline.load.eia_loader |Inserted 5000 rows
+2026-02-16 20:43:59,125 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 20:43:59,131 | INFO | pipeline.transform.eia_transformer |Loaded 2722 records into DataFrame
+2026-02-16 20:43:59,145 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 20:43:59,150 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 20:43:59,151 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 20:43:59,152 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 20:43:59,154 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 20:43:59,160 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 20:43:59,160 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 20:43:59,161 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 20:44:00,596 | INFO | pipeline.load.eia_loader |Inserted 2722 rows
+2026-02-16 20:44:00,599 | INFO | __main__ |EIA processing done
+2026-02-16 20:44:00,600 | INFO | __main__ |Processing weather data
+2026-02-16 20:44:00,603 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = -92.5666
+2026-02-16 20:44:02,229 | INFO | pipeline.transform.weather_transformer |Starting Weather Transformation
+2026-02-16 20:51:59,122 | INFO | __main__ |===== PIPELINE START =====
+2026-02-16 20:51:59,123 | INFO | __main__ |Processing EIA data
+2026-02-16 20:51:59,123 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-16 20:52:08,753 | INFO | pipeline.extract.eia_extractor |Requesting offset 5000
+2026-02-16 20:52:14,048 | INFO | pipeline.extract.eia_extractor |Requesting offset 10000
+2026-02-16 20:52:20,205 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-16 20:52:20,438 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 20:52:20,462 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 20:52:20,516 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 20:52:20,527 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 20:52:20,528 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 20:52:20,529 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 20:52:20,530 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 20:52:20,543 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 20:52:20,544 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 20:52:20,544 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 20:52:23,250 | INFO | pipeline.load.eia_loader |Inserted 5000 rows
+2026-02-16 20:52:23,441 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 20:52:23,455 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 20:52:23,473 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 20:52:23,477 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 20:52:23,478 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 20:52:23,480 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 20:52:23,482 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 20:52:23,493 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 20:52:23,494 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 20:52:23,494 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 20:52:26,066 | INFO | pipeline.load.eia_loader |Inserted 5000 rows
+2026-02-16 20:52:26,242 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 20:52:26,252 | INFO | pipeline.transform.eia_transformer |Loaded 2722 records into DataFrame
+2026-02-16 20:52:26,268 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 20:52:26,275 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 20:52:26,276 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 20:52:26,278 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 20:52:26,282 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 20:52:26,294 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 20:52:26,295 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 20:52:26,296 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 20:52:27,777 | INFO | pipeline.load.eia_loader |Inserted 2722 rows
+2026-02-16 20:52:27,779 | INFO | __main__ |EIA processing done
+2026-02-16 20:52:27,781 | INFO | __main__ |Processing weather data
+2026-02-16 20:52:27,783 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = -92.5666
+2026-02-16 20:52:29,492 | INFO | pipeline.transform.weather_transformer |Starting Weather Transformation
+2026-02-16 20:52:29,497 | INFO | pipeline.transform.weather_transformer |Weather transformation completed successfully
+2026-02-16 20:52:29,498 | INFO | pipeline.validation.weather_validation |Starting Weather validation
+2026-02-16 20:52:29,498 | INFO | pipeline.validation.weather_validation |Schema validation passed
+2026-02-16 20:52:29,500 | INFO | pipeline.validation.weather_validation |Null checks passed
+2026-02-16 20:52:29,514 | INFO | pipeline.validation.weather_validation |Weather validation completed successfully
+2026-02-16 20:52:29,515 | INFO | pipeline.load.weather_loader |Loading weather data into weather_daily
+2026-02-16 21:03:17,565 | INFO | __main__ |===== PIPELINE START =====
+2026-02-16 21:03:17,565 | INFO | __main__ |Processing EIA data
+2026-02-16 21:03:17,566 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-16 21:03:22,753 | INFO | pipeline.extract.eia_extractor |Requesting offset 5000
+2026-02-16 21:03:29,322 | INFO | pipeline.extract.eia_extractor |Requesting offset 10000
+2026-02-16 21:03:34,827 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-16 21:03:35,085 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 21:03:35,111 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 21:03:35,170 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 21:03:35,183 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 21:03:35,183 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 21:03:35,185 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 21:03:35,186 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 21:03:35,201 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 21:03:35,201 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 21:03:35,202 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 21:03:37,937 | INFO | pipeline.load.eia_loader |Inserted 5000 rows
+2026-02-16 21:03:38,124 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 21:03:38,133 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 21:03:38,151 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 21:03:38,159 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 21:03:38,160 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 21:03:38,161 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 21:03:38,162 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 21:03:38,169 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 21:03:38,170 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 21:03:38,170 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 21:03:40,701 | INFO | pipeline.load.eia_loader |Inserted 5000 rows
+2026-02-16 21:03:40,820 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 21:03:40,828 | INFO | pipeline.transform.eia_transformer |Loaded 2722 records into DataFrame
+2026-02-16 21:03:40,843 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 21:03:40,850 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 21:03:40,851 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 21:03:40,852 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 21:03:40,853 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 21:03:40,861 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 21:03:40,862 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 21:03:40,863 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 21:03:42,307 | INFO | pipeline.load.eia_loader |Inserted 2722 rows
+2026-02-16 21:03:42,311 | INFO | __main__ |EIA processing done
+2026-02-16 21:03:42,312 | INFO | __main__ |Processing weather data
+2026-02-16 21:03:42,320 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = -92.5666
+2026-02-16 21:03:43,633 | INFO | pipeline.transform.weather_transformer |Starting Weather Transformation
+2026-02-16 21:03:43,643 | INFO | pipeline.transform.weather_transformer |Weather transformation completed successfully
+2026-02-16 21:03:43,644 | INFO | pipeline.validation.weather_validation |Starting Weather validation
+2026-02-16 21:03:43,645 | INFO | pipeline.validation.weather_validation |Schema validation passed
+2026-02-16 21:03:43,648 | INFO | pipeline.validation.weather_validation |Null checks passed
+2026-02-16 21:03:43,655 | INFO | pipeline.validation.weather_validation |Weather validation completed successfully
+2026-02-16 21:03:43,656 | INFO | pipeline.load.weather_loader |Loading weather data into weather_daily
+2026-02-16 21:03:43,735 | INFO | pipeline.load.weather_loader |Inserted 15 rows
+2026-02-16 21:03:43,735 | INFO | __main__ |Weather Processing Done
+2026-02-16 21:03:43,736 | INFO | __main__ |Building fact table
+2026-02-16 21:03:43,736 | INFO | pipeline.load.fact_builder |Building fact_energy_weather table
+2026-02-16 21:06:28,003 | INFO | __main__ |===== PIPELINE START =====
+2026-02-16 21:06:28,004 | INFO | __main__ |Processing EIA data
+2026-02-16 21:06:28,004 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-16 21:06:33,401 | INFO | pipeline.extract.eia_extractor |Requesting offset 5000
+2026-02-16 21:06:36,826 | INFO | pipeline.extract.eia_extractor |Requesting offset 10000
+2026-02-16 21:06:39,925 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-16 21:06:40,126 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 21:06:40,136 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 21:06:40,155 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 21:06:40,162 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 21:06:40,162 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 21:06:40,165 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 21:06:40,168 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 21:06:40,177 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 21:06:40,178 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 21:06:40,179 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 21:06:42,781 | INFO | pipeline.load.eia_loader |Inserted 5000 rows
+2026-02-16 21:06:42,988 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 21:06:42,998 | INFO | pipeline.transform.eia_transformer |Loaded 5000 records into DataFrame
+2026-02-16 21:06:43,016 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 21:06:43,022 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 21:06:43,023 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 21:06:43,025 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 21:06:43,026 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 21:06:43,036 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 21:06:43,037 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 21:06:43,038 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 21:06:45,589 | INFO | pipeline.load.eia_loader |Inserted 5000 rows
+2026-02-16 21:06:45,703 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-16 21:06:45,709 | INFO | pipeline.transform.eia_transformer |Loaded 2722 records into DataFrame
+2026-02-16 21:06:45,718 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-16 21:06:45,723 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-16 21:06:45,724 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-16 21:06:45,725 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-16 21:06:45,726 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-16 21:06:45,730 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-16 21:06:45,731 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-16 21:06:45,731 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-16 21:06:47,164 | INFO | pipeline.load.eia_loader |Inserted 2722 rows
+2026-02-16 21:06:47,166 | INFO | __main__ |EIA processing done
+2026-02-16 21:06:47,167 | INFO | __main__ |Processing weather data
+2026-02-16 21:06:47,168 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = -92.5666
+2026-02-16 21:06:48,154 | INFO | pipeline.transform.weather_transformer |Starting Weather Transformation
+2026-02-16 21:06:48,158 | INFO | pipeline.transform.weather_transformer |Weather transformation completed successfully
+2026-02-16 21:06:48,158 | INFO | pipeline.validation.weather_validation |Starting Weather validation
+2026-02-16 21:06:48,159 | INFO | pipeline.validation.weather_validation |Schema validation passed
+2026-02-16 21:06:48,161 | INFO | pipeline.validation.weather_validation |Null checks passed
+2026-02-16 21:06:48,164 | INFO | pipeline.validation.weather_validation |Weather validation completed successfully
+2026-02-16 21:06:48,165 | INFO | pipeline.load.weather_loader |Loading weather data into weather_daily
+2026-02-16 21:06:48,222 | INFO | pipeline.load.weather_loader |Inserted 15 rows
+2026-02-16 21:06:48,223 | INFO | __main__ |Weather Processing Done
+2026-02-16 21:06:48,223 | INFO | __main__ |Building fact table
+2026-02-16 21:06:48,224 | INFO | pipeline.load.fact_builder |Building fact_energy_weather table
+2026-02-16 21:06:48,330 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-02-16 21:06:48,331 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-02-16 21:06:48,332 | INFO | __main__ |===== PIPELINE SUCCESS =====
+2026-02-17 09:40:15,644 | INFO | __main__ |===== PIPELINE START =====
+2026-02-17 09:40:15,645 | INFO | __main__ |Processing EIA data
+2026-02-17 09:40:15,954 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-18 09:05:29,844 | INFO | __main__ |===== PIPELINE START =====
+2026-02-18 09:05:29,845 | INFO | __main__ |Processing EIA data
+2026-02-18 09:08:25,362 | INFO | __main__ |===== PIPELINE START =====
+2026-02-18 09:08:25,478 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-18 09:13:55,089 | INFO | __main__ |===== PIPELINE START =====
+2026-02-18 09:13:55,252 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-18 09:20:20,834 | INFO | __main__ |===== PIPELINE START =====
+2026-02-18 09:20:20,835 | INFO | __main__ |Processing EIA data
+2026-02-18 09:20:20,956 | INFO | __main__ |EIA fetch start date: 2026-02-15
+2026-02-18 09:20:20,957 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-18 09:20:23,592 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-18 09:20:23,612 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-18 09:20:23,626 | INFO | pipeline.transform.eia_transformer |Loaded 10 records into DataFrame
+2026-02-18 09:20:23,686 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-18 09:20:23,714 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-18 09:20:23,715 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-18 09:20:23,717 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-18 09:20:23,719 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-18 09:20:23,731 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-18 09:20:23,732 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-18 09:20:23,732 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-18 09:20:23,833 | INFO | pipeline.load.eia_loader |Inserted 10 rows
+2026-02-18 09:20:23,834 | INFO | __main__ |EIA processing done
+2026-02-18 09:20:23,834 | INFO | __main__ |Processing weather data
+2026-02-18 09:21:03,882 | INFO | __main__ |===== PIPELINE START =====
+2026-02-18 09:21:03,883 | INFO | __main__ |Processing EIA data
+2026-02-18 09:21:03,946 | INFO | __main__ |EIA fetch start date: 2026-02-16
+2026-02-18 09:21:03,946 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-18 09:21:06,894 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-18 09:21:06,897 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-18 09:21:06,900 | INFO | pipeline.transform.eia_transformer |Loaded 5 records into DataFrame
+2026-02-18 09:21:06,911 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-18 09:21:06,913 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-18 09:21:06,913 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-18 09:21:06,915 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-18 09:21:06,916 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-18 09:21:06,923 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-18 09:21:06,923 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-18 09:21:06,924 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-18 09:21:06,969 | INFO | pipeline.load.eia_loader |Inserted 5 rows
+2026-02-18 09:21:06,970 | INFO | __main__ |EIA processing done
+2026-02-18 09:21:06,970 | INFO | __main__ |Processing weather data
+2026-02-18 09:21:37,176 | INFO | __main__ |===== PIPELINE START =====
+2026-02-18 09:21:37,178 | INFO | __main__ |Processing EIA data
+2026-02-18 09:21:37,269 | INFO | __main__ |EIA fetch start date: 2026-02-16
+2026-02-18 09:21:37,270 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-18 09:21:39,129 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-18 09:21:39,133 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-18 09:21:39,135 | INFO | pipeline.transform.eia_transformer |Loaded 5 records into DataFrame
+2026-02-18 09:21:39,149 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-18 09:21:39,152 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-18 09:21:39,153 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-18 09:21:39,155 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-18 09:21:39,156 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-18 09:21:39,167 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-18 09:21:39,167 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-18 09:21:39,168 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-18 09:21:39,240 | INFO | pipeline.load.eia_loader |Inserted 5 rows
+2026-02-18 09:21:39,240 | INFO | __main__ |EIA processing done
+2026-02-18 09:21:39,241 | INFO | __main__ |Processing weather data
+2026-02-18 09:24:27,816 | INFO | __main__ |===== PIPELINE START =====
+2026-02-18 09:24:27,817 | INFO | __main__ |Processing EIA data
+2026-02-18 09:24:27,889 | INFO | __main__ |EIA fetch start date: 2026-02-16
+2026-02-18 09:24:27,891 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-18 09:24:29,676 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-18 09:24:29,679 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-18 09:24:29,681 | INFO | pipeline.transform.eia_transformer |Loaded 5 records into DataFrame
+2026-02-18 09:24:29,689 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-18 09:24:29,691 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-18 09:24:29,691 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-18 09:24:29,692 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-18 09:24:29,692 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-18 09:24:29,697 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-18 09:24:29,698 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-18 09:24:29,698 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-18 09:24:29,755 | INFO | pipeline.load.eia_loader |Inserted 5 rows
+2026-02-18 09:24:29,756 | INFO | __main__ |EIA processing done
+2026-02-18 09:24:29,757 | INFO | __main__ |Processing weather data
+2026-02-18 09:24:29,875 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = -92.5666
+2026-02-18 09:24:31,112 | INFO | pipeline.transform.weather_transformer |Starting Weather Transformation
+2026-02-18 09:24:31,118 | INFO | pipeline.transform.weather_transformer |Weather transformation completed successfully
+2026-02-18 09:24:31,118 | INFO | pipeline.validation.weather_validation |Starting Weather validation
+2026-02-18 09:24:31,119 | INFO | pipeline.validation.weather_validation |Schema validation passed
+2026-02-18 09:24:31,121 | INFO | pipeline.validation.weather_validation |Null checks passed
+2026-02-18 09:24:31,141 | INFO | pipeline.validation.weather_validation |Weather validation completed successfully
+2026-02-18 09:24:31,142 | INFO | pipeline.load.weather_loader |Loading weather data into weather_daily
+2026-02-18 09:24:31,190 | INFO | pipeline.load.weather_loader |Inserted 4 rows
+2026-02-18 09:24:31,191 | INFO | __main__ |Weather processing done
+2026-02-18 09:24:31,192 | INFO | __main__ |Building fact table
+2026-02-18 09:24:31,194 | INFO | pipeline.load.fact_builder |Building fact_energy_weather table
+2026-02-18 09:24:31,307 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-02-18 09:24:31,308 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-02-18 09:24:31,309 | INFO | __main__ |===== PIPELINE SUCCESS =====
+2026-02-18 10:46:32,628 | INFO | __main__ |===== PIPELINE START =====
+2026-02-18 10:46:32,630 | INFO | __main__ |Processing EIA data
+2026-02-18 10:46:32,698 | INFO | __main__ |EIA fetch start date: 2026-02-16
+2026-02-18 10:46:32,698 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-02-18 10:46:35,051 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-02-18 10:46:35,055 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-02-18 10:46:35,065 | INFO | pipeline.transform.eia_transformer |Loaded 5 records into DataFrame
+2026-02-18 10:46:35,110 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-02-18 10:46:35,116 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-02-18 10:46:35,117 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-02-18 10:46:35,119 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-02-18 10:46:35,120 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-02-18 10:46:35,137 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-02-18 10:46:35,138 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-02-18 10:46:35,139 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-02-18 10:46:35,188 | INFO | pipeline.load.eia_loader |Inserted 5 rows
+2026-02-18 10:46:35,189 | INFO | __main__ |EIA processing done
+2026-02-18 10:46:35,190 | INFO | __main__ |Processing weather data
+2026-02-18 10:46:35,246 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = -92.5666
+2026-02-18 10:46:36,333 | INFO | pipeline.transform.weather_transformer |Starting Weather Transformation
+2026-02-18 10:46:36,338 | INFO | pipeline.transform.weather_transformer |Weather transformation completed successfully
+2026-02-18 10:46:36,338 | INFO | pipeline.validation.weather_validation |Starting Weather validation
+2026-02-18 10:46:36,339 | INFO | pipeline.validation.weather_validation |Schema validation passed
+2026-02-18 10:46:36,340 | INFO | pipeline.validation.weather_validation |Null checks passed
+2026-02-18 10:46:36,348 | INFO | pipeline.validation.weather_validation |Weather validation completed successfully
+2026-02-18 10:46:36,349 | INFO | pipeline.load.weather_loader |Loading weather data into weather_daily
+2026-02-18 10:46:36,400 | INFO | pipeline.load.weather_loader |Inserted 3 rows
+2026-02-18 10:46:36,401 | INFO | __main__ |Weather processing done
+2026-02-18 10:46:36,402 | INFO | __main__ |Building fact table
+2026-02-18 10:46:36,403 | INFO | pipeline.load.fact_builder |Building fact_energy_weather table
+2026-02-18 10:46:36,518 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-02-18 10:46:36,519 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-02-18 10:46:36,519 | INFO | __main__ |===== PIPELINE SUCCESS =====
+2026-03-31 21:19:29,974 | INFO | __main__ |===== PIPELINE START =====
+2026-03-31 21:19:29,982 | INFO | __main__ |Processing EIA data
+2026-03-31 21:23:41,128 | INFO | __main__ |===== PIPELINE START =====
+2026-03-31 21:23:41,128 | INFO | __main__ |Processing EIA data
+2026-03-31 21:23:42,008 | INFO | __main__ |EIA fetch start date: 2026-03-29
+2026-03-31 21:23:42,008 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-03-31 21:23:48,144 | INFO | pipeline.utils.api |API call successful (attempt 1)
+2026-03-31 21:23:48,147 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-03-31 21:23:49,267 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-03-31 21:23:49,267 | INFO | pipeline.transform.eia_transformer |Loaded 10 records into DataFrame
+2026-03-31 21:23:49,337 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-03-31 21:23:49,341 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-03-31 21:23:49,341 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-03-31 21:23:49,349 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-03-31 21:23:49,349 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-03-31 21:23:49,374 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-03-31 21:23:49,376 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-03-31 21:23:49,378 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-03-31 21:23:50,243 | INFO | pipeline.load.eia_loader |Inserted 10 rows
+2026-03-31 21:23:50,243 | INFO | __main__ |EIA processing done
+2026-03-31 21:23:50,243 | INFO | __main__ |Processing weather data
+2026-03-31 21:23:51,087 | INFO | __main__ |Weather fetch window: 2026-03-29 -> 2026-03-31
+2026-03-31 21:23:51,089 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = -92.5666
+2026-03-31 21:23:52,625 | INFO | pipeline.utils.api |API call successful (attempt 1)
+2026-03-31 21:23:52,783 | INFO | pipeline.transform.weather_transformer |Starting Weather Transformation
+2026-03-31 21:23:52,802 | INFO | pipeline.transform.weather_transformer |Weather transformation completed successfully
+2026-03-31 21:23:52,802 | INFO | pipeline.validation.weather_validation |Starting Weather validation
+2026-03-31 21:23:52,802 | INFO | pipeline.validation.weather_validation |Schema validation passed
+2026-03-31 21:23:52,806 | INFO | pipeline.validation.weather_validation |Null checks passed
+2026-03-31 21:23:52,825 | INFO | pipeline.validation.weather_validation |Weather validation completed successfully
+2026-03-31 21:23:52,825 | INFO | pipeline.load.weather_loader |Loading weather data into weather_daily
+2026-03-31 21:23:53,506 | INFO | pipeline.load.weather_loader |Inserted 3 rows
+2026-03-31 21:23:53,506 | INFO | __main__ |Weather processing done
+2026-03-31 21:23:53,506 | INFO | __main__ |Building fact table
+2026-03-31 21:23:53,506 | INFO | pipeline.load.fact_builder |Building fact_energy_weather table
+2026-03-31 21:23:54,393 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-03-31 21:23:54,393 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-03-31 21:23:54,393 | INFO | __main__ |Rows EIA: 10
+2026-03-31 21:23:54,393 | INFO | __main__ |Rows Weather: 3
+2026-03-31 21:23:54,393 | INFO | __main__ |Pipeline duration: 13.27 sec
+2026-03-31 21:23:54,395 | INFO | __main__ |===== PIPELINE SUCCESS =====
+2026-03-31 21:47:55,627 | INFO | __main__ |===== PIPELINE START =====
+2026-03-31 21:47:55,628 | INFO | __main__ |Processing EIA data
+2026-03-31 21:47:56,346 | INFO | __main__ |EIA fetch start date: 2026-03-29
+2026-03-31 21:47:56,347 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-03-31 21:48:10,167 | INFO | pipeline.utils.api |API call successful (attempt 1)
+2026-03-31 21:48:10,180 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-03-31 21:48:11,529 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-03-31 21:48:11,537 | INFO | pipeline.transform.eia_transformer |Loaded 10 records into DataFrame
+2026-03-31 21:48:11,572 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-03-31 21:48:11,586 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-03-31 21:48:11,587 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-03-31 21:48:11,589 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-03-31 21:48:11,590 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-03-31 21:48:11,605 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-03-31 21:48:11,606 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-03-31 21:48:11,606 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-03-31 21:48:12,510 | INFO | pipeline.load.eia_loader |Inserted 10 rows
+2026-03-31 21:48:12,510 | INFO | __main__ |EIA processing done
+2026-03-31 21:48:12,510 | INFO | __main__ |Processing weather data
+2026-03-31 21:48:13,148 | INFO | __main__ |Weather fetch window: 2026-03-29 -> 2026-03-31
+2026-03-31 21:48:13,148 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = -92.5666
+2026-03-31 21:48:14,878 | INFO | pipeline.utils.api |API call successful (attempt 1)
+2026-03-31 21:48:15,058 | INFO | pipeline.transform.weather_transformer |Starting Weather Transformation
+2026-03-31 21:48:15,062 | INFO | pipeline.transform.weather_transformer |Weather transformation completed successfully
+2026-03-31 21:48:15,062 | INFO | pipeline.validation.weather_validation |Starting Weather validation
+2026-03-31 21:48:15,063 | INFO | pipeline.validation.weather_validation |Schema validation passed
+2026-03-31 21:48:15,064 | INFO | pipeline.validation.weather_validation |Null checks passed
+2026-03-31 21:48:15,071 | INFO | pipeline.validation.weather_validation |Weather validation completed successfully
+2026-03-31 21:48:15,072 | INFO | pipeline.load.weather_loader |Loading weather data into weather_daily
+2026-03-31 21:48:16,408 | INFO | pipeline.load.weather_loader |Inserted 3 rows
+2026-03-31 21:48:16,409 | INFO | __main__ |Weather processing done
+2026-03-31 21:48:16,409 | INFO | __main__ |Building fact table
+2026-03-31 21:48:16,410 | INFO | pipeline.load.fact_builder |Building fact_energy_weather table
+2026-03-31 21:48:17,420 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-03-31 21:48:17,420 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-03-31 21:48:17,420 | INFO | __main__ |Rows EIA: 10
+2026-03-31 21:48:17,421 | INFO | __main__ |Rows Weather: 3
+2026-03-31 21:48:17,421 | INFO | __main__ |Pipeline duration: 21.79 sec
+2026-03-31 21:48:17,421 | INFO | __main__ |===== PIPELINE SUCCESS =====
+2026-03-31 21:59:29,992 | INFO | __main__ |===== PIPELINE START =====
+2026-03-31 21:59:29,993 | INFO | __main__ |Processing EIA data
+2026-03-31 21:59:30,973 | INFO | __main__ |EIA fetch start date: 2026-03-29
+2026-03-31 21:59:30,974 | INFO | pipeline.extract.eia_extractor |Requesting offset 0
+2026-03-31 21:59:34,771 | INFO | pipeline.utils.api |API call successful (attempt 1)
+2026-03-31 21:59:34,775 | INFO | pipeline.extract.eia_extractor |Reached total record count.
+2026-03-31 21:59:35,954 | INFO | pipeline.transform.eia_transformer |Starting EIA transformation
+2026-03-31 21:59:35,963 | INFO | pipeline.transform.eia_transformer |Loaded 10 records into DataFrame
+2026-03-31 21:59:35,989 | INFO | pipeline.transform.eia_transformer |EIA transformation completed successfully
+2026-03-31 21:59:35,997 | INFO | pipeline.validation.eia_validation |Starting EIA validation
+2026-03-31 21:59:35,998 | INFO | pipeline.validation.eia_validation |Schema validation passed
+2026-03-31 21:59:36,000 | INFO | pipeline.validation.eia_validation |Null checks passed
+2026-03-31 21:59:36,002 | INFO | pipeline.validation.eia_validation |Range checks passed
+2026-03-31 21:59:36,019 | INFO | pipeline.validation.eia_validation |Duplicate check passed
+2026-03-31 21:59:36,019 | INFO | pipeline.validation.eia_validation |EIA validation completed successfully
+2026-03-31 21:59:36,020 | INFO | pipeline.load.eia_loader |Loading EIA data into energy_consumption 
+2026-03-31 21:59:37,246 | INFO | pipeline.load.eia_loader |Inserted 10 rows
+2026-03-31 21:59:37,247 | INFO | __main__ |EIA processing done
+2026-03-31 21:59:37,247 | INFO | __main__ |Processing weather data
+2026-03-31 21:59:38,520 | INFO | __main__ |Weather fetch window: 2026-03-29 -> 2026-03-31
+2026-03-31 21:59:38,520 | INFO | pipeline.extract.weather_extractor |Fetching weather data for lat = 38.6275, lon = -92.5666
+2026-03-31 21:59:40,448 | INFO | pipeline.utils.api |API call successful (attempt 1)
+2026-03-31 21:59:40,744 | INFO | pipeline.transform.weather_transformer |Starting Weather Transformation
+2026-03-31 21:59:40,748 | INFO | pipeline.transform.weather_transformer |Weather transformation completed successfully
+2026-03-31 21:59:40,748 | INFO | pipeline.validation.weather_validation |Starting Weather validation
+2026-03-31 21:59:40,749 | INFO | pipeline.validation.weather_validation |Schema validation passed
+2026-03-31 21:59:40,750 | INFO | pipeline.validation.weather_validation |Null checks passed
+2026-03-31 21:59:40,764 | INFO | pipeline.validation.weather_validation |Weather validation completed successfully
+2026-03-31 21:59:40,772 | INFO | pipeline.load.weather_loader |Loading weather data into weather_daily
+2026-03-31 21:59:42,109 | INFO | pipeline.load.weather_loader |Inserted 3 rows
+2026-03-31 21:59:42,109 | INFO | __main__ |Weather processing done
+2026-03-31 21:59:42,110 | INFO | __main__ |Building fact table
+2026-03-31 21:59:42,110 | INFO | pipeline.load.fact_builder |Building fact_energy_weather table
+2026-03-31 21:59:43,001 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-03-31 21:59:43,001 | INFO | pipeline.load.fact_builder |Fact table build completed
+2026-03-31 21:59:43,002 | INFO | __main__ |Rows EIA: 10
+2026-03-31 21:59:43,002 | INFO | __main__ |Rows Weather: 3
+2026-03-31 21:59:43,002 | INFO | __main__ |Pipeline duration: 13.01 sec
+2026-03-31 21:59:43,003 | INFO | __main__ |===== PIPELINE SUCCESS =====
