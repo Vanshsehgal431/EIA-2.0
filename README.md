@@ -1,5 +1,12 @@
 # 🚀 EIA 2.0 — Cloud Data Engineering Pipeline
 
+## Live Demo
+
+
+
+https://github.com/user-attachments/assets/ac684842-c386-4dc0-9333-b215dab874b3
+
+
 ## 📌 Overview
 
 EIA 2.0 is an end-to-end cloud-native data engineering pipeline that ingests energy and weather data from external APIs, processes it using an incremental ELT architecture, and stores analytics-ready data in AWS.
