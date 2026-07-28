@@ -183,6 +183,4 @@ pipeline_runs
 ## 🤝 Author
 
 **Vansh**
-Aspiring Data Engineer 🚀
 
----
